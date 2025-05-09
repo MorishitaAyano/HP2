@@ -37,7 +37,6 @@
   transform: translateX(-50%);
   max-width: 220px;
   width: 80%;
-  aspect-ratio: 2.89 / 1;
 }
 .service-rap__list__item__one .__btn a {
   width: 100%;
@@ -117,9 +116,6 @@
 }
 .contact {
   padding: 3.47% 0;
-  background-image: url(/img/contact-top.png);
-  background-position: center;
-  background-size: cover;
 }
 .contact-wrap {
   width: 66%;
@@ -134,7 +130,7 @@
   margin-bottom: 70px;
 }
 .contact-wrap .__btn {
-  max-width: 311px;
+  max-width: 320px;
   width: 80%;
 }
 .contact-wrap .__btn a {

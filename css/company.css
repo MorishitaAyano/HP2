@@ -32,7 +32,7 @@
   background-color: #3B8C42;
   position: absolute;
   top: 50%;
-  left: -9%;
+  left: -20px;
   transform: translate(-50%,-50%);
 }
 .s-ttl::after {
@@ -43,7 +43,7 @@
   background-color: #3B8C42;
   position: absolute;
   top: 50%;
-  right: -9%;
+  right: -20px;
   transform: translate(50%,-50%);
 }
 .company-wrap__con__txt__main {
@@ -68,20 +68,18 @@
 .company-wrap__block__mission__list {
   padding: 10px 10px 10px 30px;
   background-color: #0067C0;
-  display: grid;
   height: 178px;
 }
 .company-wrap__block__vision__list {
 padding: 10px 10px 10px 30px;
 background-color: #3B8C42;
-display: grid;
 height: 178px;
 }
 
 .company-wrap__block__mission__list__item,
 .company-wrap__block__vision__list__item{
   list-style: disc;
-  padding: 2px 0;
+  padding: 4px 0;
 }
 .company-wrap__info {
   display: flex;
@@ -132,10 +130,7 @@ height: 178px;
   .company-wrap__block__mission__list,
   .company-wrap__block__vision__list {
     height: auto;
-    gap: 10px;
   }
-  
-
   .company-wrap__info {
     flex-wrap: wrap;
     height: 100px;

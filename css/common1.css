@@ -62,7 +62,7 @@ li {
 }
 .header-wrap__nav__list__item {
   text-align: center;
-  font-size: 1.25rem;
+  font-size: clamp(1.1rem, 0.854rem + 0.38vw, 1.2rem);
 }
 .header-wrap__nav__list__item a {
   color: #fff;
@@ -101,13 +101,14 @@ header .drawer {
   margin-top: 10px;
 }
 .__btn {
-  width: 240px;
+  width: 250px;
+  aspect-ratio: 3.29 / 1;
   margin: 0 auto;
 }
 .__btn a{
   display: flex;
-  width: 240px;
-  height: 76px;
+  width: 250px;
+  height: 100%;
   align-items: center;
   justify-content: center;
   background-color: #FFD700;
@@ -148,14 +149,15 @@ footer {
 .footer-wrap__list__item__ttl {
   font-size: clamp(0.9rem, 0.8rem + 0.5vw, 1.25rem);
   font-weight: bold;
+  width: 120px;
 }
 .footer-wrap__list__sub__item {
   font-size: clamp(0.9rem, 0.871rem + 0.14vw, 1rem);
-  width: 172px;
+
 }
 .footer-wrap__list__sub__item span {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 12.5px;
 }
 .footer-wrap__right {
   font-size: 0.9rem;
@@ -293,7 +295,7 @@ footer {
     width: 100%;
   }
   .footer-wrap__list__item__ttl {
-    width: 172px;
+    width: 120px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -350,7 +352,6 @@ footer {
   }
   .footer-wrap__list {
     flex-wrap: wrap;
-    gap: 15%;
-    justify-content: center;
+    margin: 0 5px;
   }
 }
