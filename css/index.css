@@ -1,0 +1,208 @@
+@charset "UTF-8";
+.top-wrap__sp {
+  display: none;
+}
+.news-wrap .ttl {
+  display: flex;
+  align-items: center;
+}
+.news-wrap .ttl span {
+  margin-left: 10px;
+}
+.news-wrap__list {
+  margin-bottom: 70px;
+}
+.news-wrap__list__item {
+  border-bottom: 1px dashed #2F3436;
+  padding: 16px 48px;
+}
+.news-wrap__list__item span {
+  display: block;
+  margin-bottom: 16px;
+}
+.service-wrap__list {
+  display: flex;
+  justify-content: space-between;
+}
+.service-wrap__list__item {
+  width: 32%;
+}
+.service-rap__list__item__one {
+  position: relative;
+}
+.service-rap__list__item__one .__btn {
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 220px;
+  width: 80%;
+  aspect-ratio: 2.89 / 1;
+}
+.service-rap__list__item__one .__btn a {
+  width: 100%;
+  height: 100%;
+  font-size: clamp(1rem, 0.749rem + 0.83vw, 1.5rem);
+}
+.service-rap__list__item__one .__btn a:hover {
+  opacity: 0.85;
+}
+.service-rap__list__item__one__tab {
+  display: none;
+}
+.service-rap__list__item__one__sp {
+  display: none;
+}
+
+.company-wrap .ttl {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.company-wrap .ttl span {
+  margin-left: 10px;
+}
+.company-wrap__con {
+  display: flex;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.company-wrap__con__image {
+  width: 50%;
+}
+.company-wrap__con__txt {
+  width: 50%;
+  padding-left: 20px;
+}
+.s-ttl {
+  font-size: clamp(1.3rem, 1.214rem + 0.43vw, 1.6rem);
+  letter-spacing: 0.2rem;
+  background: linear-gradient(180deg, #3B8C42 0%, #26592A 50%, #1A3C1D 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 33px;
+  position: relative;
+  margin: 0 40px 33px;
+  padding: 0 10px;
+  display: inline-block;
+}
+.s-ttl::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background-color: #3B8C42;
+  position: absolute;
+  top: 50%;
+  left: -9%;
+  transform: translate(-50%,-50%);
+}
+.s-ttl::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background-color: #3B8C42;
+  position: absolute;
+  top: 50%;
+  right: -9%;
+  transform: translate(50%,-50%);
+}
+.company-wrap__con__txt__main {
+  margin-bottom: 33px;
+}
+.company-wrap__con__txt__name {
+  text-align: right;
+}
+.contact {
+  padding: 3.47% 0;
+  background-image: url(/img/contact-top.png);
+  background-position: center;
+  background-size: cover;
+}
+.contact-wrap {
+  width: 66%;
+  margin: 0 auto;
+  padding: 50px 5px;
+  background: rgba(255, 255, 255, 0.8);
+}
+.contact-wrap__txt {
+  text-align: center;
+  font-size: clamp(0.9rem, 0.8rem + 0.5vw, 1.25rem);
+  letter-spacing: 0.125rem;
+  margin-bottom: 70px;
+}
+.contact-wrap .__btn {
+  max-width: 311px;
+  width: 80%;
+}
+.contact-wrap .__btn a {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .service-rap__list__item__one__pc {
+    display: none;
+  }
+  .service-rap__list__item__one__tab {
+    display: block;
+  }
+  .contact-wrap {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .service-rap__list__item__one__tab {
+    display: none;
+  }
+  .service-rap__list__item__one__sp {
+    display: block;
+  }
+  .service-wrap__list {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .service-wrap__list__item {
+    width: 100%;
+  }
+  .service-rap__list__item__one .__btn {
+    width: 65%;
+  }
+  .company-wrap__con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.company-wrap__con__image {
+  width: 100%;
+  margin-bottom: 35px;
+}
+.company-wrap__con__txt {
+  width: 100%;
+}
+}
+
+@media screen and (max-width: 480px) {
+  .top-wrap__pc {
+  display: none;
+}
+.top-wrap__sp {
+  display: block;
+}
+.contact-wrap .__btn a  {
+  font-size: clamp(1rem, 0.5rem + 2.5vw, 1.25rem);
+}
+.s-ttl {
+  font-size: clamp(1.1rem, 0.1rem + 5vw, 1.6rem);
+}
+  .company-wrap__con__txt {
+    text-align: center;
+  }
+  .company-wrap__con__txt__main {
+    text-align: left;
+  }
+}

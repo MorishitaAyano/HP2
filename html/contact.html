@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HP2</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/reset.css">
+  <link rel="stylesheet" type="text/css" href="../css/common1.css">
+  <link rel="stylesheet" type="text/css" href="../css/common2.css">
+  <link rel="stylesheet" type="text/css" href="../css/contact.css">
+</head>
+
+<body>
+  <header class="header" id="header">
+    <div class="header-wrap">
+      <a href="../index.html" class="header-wrap__logo">
+        <img src="../img/fictionalinc-logo.png" alt="フィクショナル株式会社">
+      </a>
+      <nav class="header-wrap__nav">
+        <ul class="header-wrap__nav__list">
+          <li class="header-wrap__nav__list__item">
+            <a href="service.html">サービス紹介</a>
+          </li>
+          <li class="header-wrap__nav__list__item">
+            <a href="company.html">会社概要</a>
+          </li>
+          <li class="header-wrap__nav__list__item">
+            <a href="news.html">お知らせ</a>
+          </li>
+          <li class="header-wrap__nav__list__item">
+            <a href="contact.html">お問い合わせ</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="drawer">
+      <nav class="header-wrap__nav">
+        <ul class="header-wrap__nav__list">
+          <li class="header-wrap__nav__list__item">
+            <a href="service.html">サービス紹介</a>
+          </li>
+          <li class="header-wrap__nav__list__item">
+            <a href="company.html">会社概要</a>
+          </li>
+          <li class="header-wrap__nav__list__item">
+            <a href="news.html">お知らせ</a>
+          </li>
+          <li class="header-wrap__nav__list__item">
+            <a href="contact.html">お問い合わせ</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="top" id="top">
+      <div class="top-wrap">
+        <img src="../img/contact.png" alt="お問い合わせトップ画像画像">
+      </div>
+    </div>
+    <div class="breadcrumb" id="breadcrumb">
+      <div class="breadcrumb-wrap">
+        <nav class="breadcrumb-wrap__nav">
+          <ol class="breadcrumb-wrap__nav__list">
+            <li class="breadcrumb-wrap__nav__list__item">
+              <a href="../index.html">TOP</a>
+            </li>
+            <li class="breadcrumb-wrap__nav__list__item">
+              <a href="contact.html">お問い合わせ</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <section class="contact" id="contact">
+      <div class="contact-wrap __inner">
+        <h1 class="ttl">CONTACT<span>お問い合わせ</span></h1>
+        <p class="contact-wrap__txt">
+          フィクショナル株式会社は、<br class="__sp"><br class="__tab">企業の環境対策をサポートします。<br>まずはお気軽に<br class="__sp">お問い合わせください。
+        </p>
+        <form action="" id="form" method="POST" class="contact-wrap__form">
+          <div class="contact-wrap__form__box">
+            <label for="company" class="contact-wrap__form__box__ttl">会社名<span>必須</span></label>
+            <input type="text" class="contact-wrap__form__box__input" name="会社名" id="company" required="required" placeholder="会社名をご入力下さい">
+          </div>
+          <div class="contact-wrap__form__box">
+            <label for="name" class="contact-wrap__form__box__ttl">お名前(漢字)<span>必須</span></label>
+            <input type="text" class="contact-wrap__form__box__input" name="お名前（漢字）" id="name" required="required"
+              placeholder="お名前をご入力下さい">
+          </div>
+          <div class="contact-wrap__form__box">
+            <label for="email" class="contact-wrap__form__box__ttl">メールアドレス<span>必須</span></label>
+            <input type="email" class="contact-wrap__form__box__input" name="メールアドレス" id="email" required="required"
+              placeholder="例）example@example.com">
+          </div>
+          <div class="contact-wrap__form__box _area">
+            <label for="message" class="contact-wrap__form__box__ttl">お問い合わせ内容<span>必須</span></label>
+            <textarea name="お問い合わせ内容" class="contact-wrap__form__box__area" id="message" required="required"
+              placeholder="お問い合わせ内容をご入力下さい"></textarea>
+          </div>
+          <button type="submit" class="__btn contact-btn">送信する</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-wrap">
+      <div class="footer-wrap__logo">
+        <a href="../index.html"><img src="../img/fictionalinc-logo.png" alt="フィクショナル株式会社"></a>
+      </div>
+      <ul class="footer-wrap__list">
+        <li class="footer-wrap__list__item">
+          <a class="footer-wrap__list__item__ttl" href="service.html">サービス紹介</a>
+          <ul class="footer-wrap__list__sub">
+            <li class="footer-wrap__list__sub__item">
+              <a href="service.html#service1">>環境コンサルティング</a>
+            </li>
+            <li class="footer-wrap__list__sub__item">
+              <a href="service.html#service2">>再生可能エネルギー<br><span>導入サポート</span></a>
+            </li>
+            <li class="footer-wrap__list__sub__item">
+              <a href="service.html#service3">>サステナビリティ<br><span>戦略立案</span></a>
+            </li>
+          </ul>
+        </li>
+        <li class="footer-wrap__list__item">
+          <a class="footer-wrap__list__item__ttl" href="company.html">会社概要</a>
+          <ul class="footer-wrap__list__sub">
+            <li class="footer-wrap__list__sub__item">
+              <a href="company.html#message">>代表メッセージ</a>
+            </li>
+            <li class="footer-wrap__list__sub__item">
+              <a href="company.html#mission-vision">>企業ミッション・<br><span>ビジョン</span></a>
+            </li>
+            <li class="footer-wrap__list__sub__item">
+              <a href="company.html#info">>会社情報</a>
+            </li>
+          </ul>
+        </li>
+        <li class="footer-wrap__list__item">
+          <a class="footer-wrap__list__item__ttl" href="news.html">お知らせ</a>
+        </li>
+        <li class="footer-wrap__list__item">
+          <a class="footer-wrap__list__item__ttl" href="contact.html">お問い合わせ</a>
+        </li>
+      </ul>
+    </div>
+    <p class="footer-wrap__right">©︎2025 Fictional Inc. <br class="__sp">All Rights Reserved</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="../js/common.js"></script>
+</body>
+
+</html>

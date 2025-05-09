@@ -1,0 +1,53 @@
+@charset "UTF-8";
+.contact-wrap__txt {
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: clamp(0.9rem, 0.7rem + 1vw, 1rem);
+}
+.contact-wrap__form__box__ttl {
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.contact-wrap__form__box__ttl span {
+  font-size: 0.81rem;
+  font-weight: 400;
+  border: solid 1px #FE1C1C;
+  color: #FE1C1C;
+  display: inline-block;
+  margin-left: 24px;
+}
+.contact-wrap__form__box__input {
+  display: block;
+  width: 100%;
+  height: 80px;
+  margin-top: 10px;
+  margin-bottom: 46px;
+}
+.contact-wrap__form__box__area {
+  display: block;
+  width: 100%;
+  height: 427px;
+  margin-top: 10px;
+  margin-bottom: 73px;
+}
+.__btn.contact-btn {
+  display: block;
+  color: #fff;
+  font-size: 1.5rem;
+  background-color: #FFD700;
+  cursor: pointer;
+  font-weight: bold;
+  border: unset;
+  height: 76px;
+  transition: all 0.3s;
+}
+.__btn.contact-btn:hover {
+  opacity: 0.5;
+}
+@media screen and (max-width: 480px) {
+  .contact-wrap__form__box__area {
+    height: 300px;
+  }
+}
