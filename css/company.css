@@ -67,8 +67,22 @@
   width: 48%;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
-
+.company-wrap__block__mission__ttl {
+  color: #fff;
+  position: absolute;
+  top: 4.35%;
+  left: 2.17%;
+  font-size: clamp(1.1rem, 0.642rem + 0.95vw, 1.5rem);
+}
+.company-wrap__block__vision__ttl {
+  color: #3B8C42;
+  position: absolute;
+  top: 4.35%;
+  left: 2.17%;
+  font-size: clamp(1.1rem, 0.642rem + 0.95vw, 1.5rem);
+}
 .company-wrap__block__mission__list {
   padding: 2.2% 2.2% 2.2% 30px;
   background-color: #0067C0;
@@ -135,6 +149,11 @@ height: 100%;
   .company-wrap__info {
     flex-wrap: wrap;
     height: 100px;
+  }
+  .company-wrap__block__mission__ttl,
+  .company-wrap__block__vision__ttl {
+    top: 2%;
+    font-size: clamp(1.1rem, 0.814rem + 1.43vw, 1.5rem);
   }
 }
 @media screen and (max-width: 480px) {
