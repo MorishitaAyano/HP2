@@ -1,11 +1,14 @@
 @charset "UTF-8";
+.top-wrap {
+  background-image: url(../img/contact.png);
+}
 .contact-wrap__txt {
   text-align: center;
-  margin-bottom: 70px;
+  margin-bottom: 7.37%;
   font-size: clamp(0.9rem, 0.7rem + 1vw, 1rem);
 }
 .contact-wrap__form__box__ttl {
-  font-size: 1.25rem;
+  font-size: clamp(1.1rem, 1.057rem + 0.21vw, 1.25rem);
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -16,21 +19,21 @@
   border: solid 1px #FE1C1C;
   color: #FE1C1C;
   display: inline-block;
-  margin-left: 24px;
+  margin-left: 2.5%;
 }
 .contact-wrap__form__box__input {
   display: block;
   width: 100%;
   height: 70px;
-  margin-top: 10px;
-  margin-bottom: 46px;
+  margin-top: 1.1%;
+  margin-bottom: 4.8%;
 }
 .contact-wrap__form__box__area {
   display: block;
   width: 100%;
   height: 400px;
-  margin-top: 10px;
-  margin-bottom: 73px;
+  margin-top: 1.1%;
+  margin-bottom: 7.6%;
 }
 .__btn.contact-btn {
   display: block;

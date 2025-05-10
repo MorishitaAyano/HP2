@@ -1,4 +1,7 @@
 @charset "UTF-8";
+.top-wrap {
+  background-image: url(../img/news.png);
+}
 .news-wrap__num {
   display: flex;
   flex-wrap: wrap;
@@ -25,15 +28,15 @@
 }
 
 .news-wrap__list {
-  margin-bottom: 70px;
+  margin-bottom: 10.5%;
 }
 .news-wrap__list__item {
   border-bottom: 1px dashed #2F3436;
-  padding: 16px 48px;
+  padding: 1.68% 5.05%;
 }
 .news-wrap__list__item span {
   display: block;
-  margin-bottom: 16px;
+  margin-bottom: 1.87%;
 }
 @media screen and (max-width: 480px){
   .news-wrap__num__item a {

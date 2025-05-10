@@ -1,4 +1,11 @@
 @charset "UTF-8";
+.top-wrap {
+  background-size: cover;
+  width: 100%;
+  aspect-ratio: 4.47 / 1;
+  margin-top: 80px;
+  position: relative;
+}
 .breadcrumb {
   padding: 1.94% 2.08%;
 }
@@ -19,10 +26,14 @@
 .breadcrumb-wrap__nav__list__item:nth-last-of-type(1) a {
   color: #0067C0;
 }
-@media screen and (max-width: 480px) {
-  .top-wrap img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
+@media screen and (max-width: 768px) {
+  .top-wrap {
+    aspect-ratio: 3.2 / 1;
+    margin-top: 80px;
+  }
 }
+@media screen and (max-width: 480px) {
+  .top-wrap {
+    margin-top: 70px;
+  }
 }
